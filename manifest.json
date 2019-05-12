@@ -1,14 +1,11 @@
 {
-  "name": "Getting Started Example",
+  "name": "Supreme",
   "version": "1.0",
-  "description": "Build an Extension!",
-  "permissions": ["storage"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "page_action": {
+  "description": "Never take another L",
+  "browser_action": {
     "default_popup": "popup.html"
   },
+  "permissions": ["activeTab"],
   "manifest_version": 2
 }
+
